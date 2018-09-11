@@ -328,7 +328,7 @@ select {
 }
 .cb-slideshow:after {
     content: '';
-    background: transparent url(http://rachidiattorneys.co.za/wp-content/uploads/2017/06/pattern.png) repeat top left;
+    background: transparent url(https://rachidiattorneys.co.za/wp-content/uploads/2017/06/pattern.png) repeat top left;
 }
 .cb-slideshow li span {
     width: 100%;
