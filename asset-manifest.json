@@ -1,7 +1,18 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.ad7b99f0.js",
-  "main.js.map": "static/js/main.ad7b99f0.js.map",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.bd4aef1a.css",
+  "main.css.map": "static/css/main.bd4aef1a.css.map",
+  "main.js": "static/js/main.d3999490.js",
+  "main.js.map": "static/js/main.d3999490.js.map",
+  "static\\media\\TJLoughryDevResume.pdf": "static/media/TJLoughryDevResume.90161c6d.pdf",
+  "static\\media\\fooddice_screenshot.png": "static/media/fooddice_screenshot.cf5ba6c6.png",
+  "static\\media\\hackathon_resources_screenshot.PNG": "static/media/hackathon_resources_screenshot.529f2d30.PNG",
+  "static\\media\\image1.jpg": "static/media/image1.dc8671c8.jpg",
+  "static\\media\\image2.jpg": "static/media/image2.8fe846d2.jpg",
+  "static\\media\\image3.jpg": "static/media/image3.47baa0b6.jpg",
+  "static\\media\\image4.jpg": "static/media/image4.2cc27fbf.jpg",
+  "static\\media\\image5.jpg": "static/media/image5.78e63e5c.jpg",
+  "static\\media\\image6.jpg": "static/media/image6.0b901ba8.jpg",
+  "static\\media\\pupfetcher_screenshot2.png": "static/media/pupfetcher_screenshot2.920c3c72.png",
+  "static\\media\\tictactoe_screenshot.png": "static/media/tictactoe_screenshot.b2a6af39.png",
+  "static\\media\\ufhome_screenshot4.png": "static/media/ufhome_screenshot4.13bc0341.png"
 }
