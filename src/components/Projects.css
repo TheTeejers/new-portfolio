@@ -1,0 +1,69 @@
+.ufhomeImage, .tictactoeImage, .pupfetcherImage, .fooddiceImage, .hackathonImage {
+  max-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.projectParagraph::first-letter{
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.projectParagraph {
+  margin: 25px 120px;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 25px;
+  word-break: normal;
+  padding: 0px 25px;
+  text-indent: 50px;
+  letter-spacing: 5px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.projectTag {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.projectTag:hover {
+  box-shadow: 0px 0px 65px 5px #18E5BC, inset 0px 0px 8px 4px #18E5BC;
+  border: 1px solid none;
+  border-radius: 10px;
+  color: #272d34;
+  text-shadow: 1px 1px 1px white;
+}
+
+.projectList {
+  color: white;
+  padding: 0px 50px;
+  letter-spacing: 5px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.projectUL {
+  color: white;
+  padding: 0px 50px;
+  letter-spacing: 5px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.projectUL::first-letter{
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.projectImage {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+
+}
+
+.projectSlide, .slideProject {
+  padding-bottom: 100px;
+}
