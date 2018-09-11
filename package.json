@@ -2,7 +2,7 @@
   "name": "new-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://theteejers.github.io/new-portfolio/"
+  "homepage": "https://theteejers.github.io/new-portfolio/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.5.0",
