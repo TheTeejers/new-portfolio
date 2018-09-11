@@ -42,7 +42,7 @@ class Home extends Component {
             <h1>Web Developer</h1>
           </Roll>
         </div>
-        <Carousel forever defaultWait={2500}>
+        <Carousel forever='true' defaultWait={2500}>
           <Slide right>
             <div>
               <h1> </h1>
