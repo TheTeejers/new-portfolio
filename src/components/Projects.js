@@ -8,7 +8,7 @@ import ufhome_screenshot4 from './images/ufhome_screenshot4.png';
 import pupfetcher_screenshot2 from './images/pupfetcher_screenshot2.png';
 import fooddice_screenshot from './images/fooddice_screenshot.png';
 import tictactoe_screenshot from './images/tictactoe_screenshot.png';
-// import './projectCardAnimation.css';
+
 
 const width = '100%', height='100vh';
 const Container = styled.div`
