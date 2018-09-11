@@ -32,7 +32,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="Home">
+      <div className="App">
         <div className='FSWD'>TESTING</div>
         <div className="FSWD">
           <Roll top cascade>
