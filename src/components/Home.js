@@ -7,7 +7,6 @@ import './Home.css';
 
 
 const Container = styled.div`
-  ${'' /* border: 1px solid red; */}
   position: relative;
   overflow: hidden;
   width: 100%;
