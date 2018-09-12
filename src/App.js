@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Routes from './components/Routes.js'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './components/Home.js';
-import Resume from './components/Resume.js';
-import Projects from './components/Projects.js';
-import About from './components/About.js';
-import Contact from './components/Contact.js';
 import './App.css';
 
 

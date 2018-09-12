@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render () {
     return (
       <div className="App-header">
         <header>
-            <div className="headerName headerNameHome"><a href="./">TJ LOUGHRY</a></div>
-            <div className="headerLinks headerLinksInactive"><a href="./Resume">RESUME</a></div>
-            <div className="headerLinks headerLinksInactive"><a href="./Projects">PROJECTS</a></div>
-            <div className="headerLinks headerLinksInactive"><a href="./About">ABOUT</a></div>
-            <div className="headerLinks headerLinksInactive"><a href="./Contact">CONTACT</a></div>
+            <div className="headerName headerNameHome"><Link to="/">TJ LOUGHRY</Link></div>
+            <div className="headerLinks headerLinksInactive"><Link to="/Resume">RESUME</Link></div>
+            <div className="headerLinks headerLinksInactive"><Link to="/Projects">PROJECTS</Link></div>
+            <div className="headerLinks headerLinksInactive"><Link to="/About">ABOUT</Link></div>
+            <div className="headerLinks headerLinksInactive"><Link to="/Contact">CONTACT</Link></div>
             <button className="hamburger">&#9776;</button>
         </header>
         <div className="menu">
           <ul>
-            <a href="./resume.html"><li>RESUME</li></a>
-            <a href="./projects.html"><li>PROJECTS</li></a>
-            <a href="./about.html"><li>ABOUT</li></a>
-            <a href="./contact.html"><li>CONTACT</li></a>
+            <Link to="/Resume"><li>RESUME</li></Link>
+            <Link to="/Projects"><li>PROJECTS</li></Link>
+            <Link to="/About"><li>ABOUT</li></Link>
+            <Link to="/Contact"><li>CONTACT</li></Link>
           </ul>
         </div>
       </div>
