@@ -9,6 +9,7 @@ import ufhome_screenshot4 from './images/ufhome_screenshot4.png';
 import pupfetcher_screenshot2 from './images/pupfetcher_screenshot2.png';
 import fooddice_screenshot from './images/fooddice_screenshot.png';
 import tictactoe_screenshot from './images/tictactoe_screenshot.png';
+import scienceproject from './images/scienceproject.PNG';
 
 
 const width = '100%', height='100vh';
@@ -107,6 +108,27 @@ class Projects extends Component {
               <p className="projectParagraph">
                 Take a tour of the site <a className='projectTag' href="./static-site/index.html" target='blank'>here!</a>
               </p>
+            </div>
+          </LightSpeed>
+          <LightSpeed className='slideProject' right>
+            <div className='projectSlide'>
+              <h1 className="FSWD">THIRD GRADER PROJECT</h1>
+              <div className="projectImage">
+                <img className='hackathonImage' src={scienceproject} alt='science project'/>
+              </div>
+              <p className="projectParagraph">
+                This project was for my son.  He had a science experiment and decided he wanted to poll people that owned dogs and/or cats and see which pet cost more to own.
+              </p>
+              <p className="projectParagraph">
+                We spent a of hours coming up with the questions and got ready to set up an email campaign to get the data.  I decided that it may work better (i.e. get more responses) if I made a simple, quick website for him and then post it to my and my wife’s FaceBook pages.
+              </p>
+              <p className="projectParagraph">
+                This was successful and we received a lot more responses than we would have in just an email campaign.
+              </p>
+              <p className="projectParagraph">
+                In this project, I had a form fill set up that posted to and pulled from a Firebase database. You can see it <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'>here!</a>
+              </p>
+
             </div>
           </LightSpeed>
           <LightSpeed className='slideProject' right>
