@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import makeCarousel from 'react-reveal/makeCarousel';
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
+import LightSpeed from 'react-reveal/LightSpeed';
 import styled, { css } from 'styled-components';
 import './Projects.css';
 import hackathon_resources_screenshot from './images/hackathon_resources_screenshot.PNG';
@@ -82,7 +83,7 @@ class Projects extends Component {
     return (
       <div className="App">
         <Carousel maxTurns={0}>
-          <Slide className='slideProject' right>
+          <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
               <h1 className="FSWD">HACKATHON RESOURCES</h1>
               <div className="projectImage">
@@ -107,12 +108,12 @@ class Projects extends Component {
                 Take a tour of the site <a className='projectTag' href="./static-site/index.html" target='blank'>here!</a>
               </p>
             </div>
-          </Slide>
-          <Slide className='slideProject' right>
+          </LightSpeed>
+          <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <h1 className="FSWD">UFHome</h1>
+              <h1 className="FSWD"><a className='projectTag' href="https://ufhome.herokuapp.com/" target='blank'>UFHome</a></h1>
               <div className="projectImage">
-                <img className='ufhomeImage' src={ufhome_screenshot4} alt='UFHome'/>
+                <a className='projectTag' href="https://ufhome.herokuapp.com/" target='blank'><img className='ufhomeImage' src={ufhome_screenshot4} alt='UFHome'/></a>
               </div>
               <p className="projectParagraph">
                 UFHome was my final project for General Assembly.  It was a solo project that I came up with, designed, and developed on my own.  We were given free range to come up with whatever we wanted to in order to showcase our skills.
@@ -127,15 +128,15 @@ class Projects extends Component {
                 Take a tour of the site <a className='projectTag' href="https://ufhome.herokuapp.com/" target='blank'>here!</a> See if you can find the Easter Eggs!
               </p>
             </div>
-          </Slide>
-          <Slide className='slideProject' right>
+          </LightSpeed>
+          <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <h1 className="FSWD">PUPFETCHER</h1>
+              <h1 className="FSWD">PUPFETCHR</h1>
               <div className="projectImage">
                 <img className='pupfetcherImage' src={pupfetcher_screenshot2} alt='Pupfetcher'/>
               </div>
               <p className="projectParagraph">
-                Pupfetcher was the first group project we did at General Assembly.  Our group was comprised of a total of four students.  We were expected to follow these requirements:
+                Pupfetchr was the first group project we did at General Assembly.  Our group was comprised of a total of four students.  We were expected to follow these requirements:
               </p>
               <ul>
                 <li className="projectList">Build an Express Application that has JSON endpoints.</li><br/>
@@ -152,12 +153,12 @@ class Projects extends Component {
                 Other than that, we were to come up with, design, and develop the app as we saw fit.  We decided to let people search for dogs in shelters in their area!  We were very proud of our idea and product!
               </p>
             </div>
-          </Slide>
-          <Slide className='slideProject' right>
+          </LightSpeed>
+          <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <h1 className="FSWD">FOODDICE</h1>
+              <h1 className="FSWD"><a className='projectTag' href="https://food-dice.herokuapp.com/" target='blank'>FOODDICE</a></h1>
               <div className="projectImage">
-                <img className='fooddiceImage' src={fooddice_screenshot} alt='FoodDice'/>
+                <a className='projectTag' href="https://food-dice.herokuapp.com/" target='blank'><img className='fooddiceImage' src={fooddice_screenshot} alt='FoodDice'/></a>
               </div>
               <p className="projectParagraph">
                 FoodDice was our second group project. Our group was comprised of a total of four students from the web development immersive class. We were given one week to come up with an idea and develop the web app using React.
@@ -172,12 +173,12 @@ class Projects extends Component {
                 Take a tour of the site <a className='projectTag' href="https://food-dice.herokuapp.com/" target='blank'>here!</a>
               </p>
             </div>
-          </Slide>
-          <Slide className='slideProject' right>
+          </LightSpeed>
+          <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <h1 className="FSWD">TIC TAC TOE</h1>
+              <h1 className="FSWD"><a className='projectTag' href="https://theteejers.github.io/tic-tac-toe/" target='blank'>TIC TAC TOE</a></h1>
               <div className="projectImage">
-                <img className='tictactoeImage' src={tictactoe_screenshot} alt='tictactoe'/>
+                <a className='projectTag' href="https://theteejers.github.io/tic-tac-toe/" target='blank'><img className='tictactoeImage' src={tictactoe_screenshot} alt='tictactoe'/></a>
               </div>
               <p className="projectParagraph">
                 The Tic-Tac-Toe project was the first project in the General Assembly course.  It was, at the time, a very daunting task.  We had a Friday through the weekend to complete the task.  The requirements were as follows:
@@ -202,10 +203,10 @@ class Projects extends Component {
                 I really enjoyed figuring this project out and I even added a few little fun surprises!
               </p>
               <p className="projectParagraph">
-                Take a tour of the site <a className='projectTag' href="./tictactoe.html" target='blank'>here!</a> See if you can find the Easter Eggs!
+                Take a tour of the site <a className='projectTag' href="https://theteejers.github.io/tic-tac-toe/" target='blank'>here!</a> See if you can find the Easter Eggs!
               </p>
             </div>
-          </Slide>
+          </LightSpeed>
         </Carousel>
       </div>
     );

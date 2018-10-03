@@ -33,67 +33,68 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <div className='FSWD'>TESTING</div>
-        <div className="FSWD">
-          <Roll top cascade>
-            <h1>Full Stack</h1>
-          </Roll>
-          <Roll bottom cascade>
-            <h1>Web Developer</h1>
-          </Roll>
+        <div className="homeText">
+          <div className="FSWD">
+            <Roll top cascade>
+              <h1>Full Stack</h1>
+            </Roll>
+            <Roll bottom cascade>
+              <h1>Web Developer</h1>
+            </Roll>
+          </div>
+          <Carousel forever='true' defaultWait={2500}>
+            <Slide right>
+              <div>
+                <h1> </h1>
+              </div>
+            </Slide>
+            <Slide wait={2500} left>
+              <Roll left cascade>
+                <h1 className="FSWD">HTML</h1>
+              </Roll>
+            </Slide>
+            <Slide right>
+              <Roll right cascade>
+                <h1 className="FSWD">CSS</h1>
+              </Roll>
+            </Slide>
+            <Slide left>
+              <Roll left cascade>
+                <h1 className="FSWD">JavaScript</h1>
+              </Roll>
+            </Slide>
+            <Slide right>
+              <Roll right cascade>
+                <h1 className="FSWD">React.js</h1>
+              </Roll>
+            </Slide>
+            <Slide left>
+              <Roll left cascade>
+                <h1 className="FSWD">Node.js</h1>
+              </Roll>
+            </Slide>
+            <Slide right>
+              <Roll right cascade>
+                <h1 className="FSWD">WordPress</h1>
+              </Roll>
+            </Slide>
+            <Slide left>
+              <Roll left cascade>
+                <h1 className="FSWD">NGNX</h1>
+              </Roll>
+            </Slide>
+            <Slide right>
+              <Roll right cascade>
+                <h1 className="FSWD">Express</h1>
+              </Roll>
+            </Slide>
+            <Slide left>
+              <Roll left cascade>
+                <h1 className="FSWD">MongoDB</h1>
+              </Roll>
+            </Slide>
+          </Carousel>
         </div>
-        <Carousel forever='true' defaultWait={2500}>
-          <Slide right>
-            <div>
-              <h1> </h1>
-            </div>
-          </Slide>
-          <Slide wait={2500} left>
-            <Roll left cascade>
-              <h1 className="FSWD">HTML</h1>
-            </Roll>
-          </Slide>
-          <Slide right>
-            <Roll right cascade>
-              <h1 className="FSWD">CSS</h1>
-            </Roll>
-          </Slide>
-          <Slide left>
-            <Roll left cascade>
-              <h1 className="FSWD">JavaScript</h1>
-            </Roll>
-          </Slide>
-          <Slide right>
-            <Roll right cascade>
-              <h1 className="FSWD">React.js</h1>
-            </Roll>
-          </Slide>
-          <Slide left>
-            <Roll left cascade>
-              <h1 className="FSWD">Node.js</h1>
-            </Roll>
-          </Slide>
-          <Slide right>
-            <Roll right cascade>
-              <h1 className="FSWD">WordPress</h1>
-            </Roll>
-          </Slide>
-          <Slide left>
-            <Roll left cascade>
-              <h1 className="FSWD">NGNX</h1>
-            </Roll>
-          </Slide>
-          <Slide right>
-            <Roll right cascade>
-              <h1 className="FSWD">Express</h1>
-            </Roll>
-          </Slide>
-          <Slide left>
-            <Roll left cascade>
-              <h1 className="FSWD">MongoDB</h1>
-            </Roll>
-          </Slide>
-        </Carousel>
       </div>
     );
   }

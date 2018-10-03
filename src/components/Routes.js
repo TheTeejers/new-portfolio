@@ -5,11 +5,12 @@ import Resume from './Resume.js';
 import Projects from './Projects.js';
 import About from './About.js';
 import Contact from './Contact.js';
+import Test from './Test.js';
 
 
 
 const Routes = () => (
-  <routes>
+  <main>
       <div className='Home'>
         <Route exact path='/' component={ () => <Home /> } />
         <Route path='/Home' component={ () => <Home /> } />
@@ -17,8 +18,9 @@ const Routes = () => (
         <Route path='/Projects' component={ () => <Projects /> } />
         <Route path='/About' component={ () => <About /> } />
         <Route path='/Contact' component={ () => <Contact /> } />
+        <Route path='/Test' component={ () => <Test /> } />
       </div>
-  </routes>
+  </main>
 )
 
 export default Routes

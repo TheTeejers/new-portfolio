@@ -11,9 +11,3 @@ ReactDOM.render((
   </BrowserRouter>
 ), document.getElementById('root'));
 registerServiceWorker();
-
-// ReactDOM.render((
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>
-// ), document.getElementById('root'));

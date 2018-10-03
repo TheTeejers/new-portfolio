@@ -2,7 +2,7 @@
   "name": "new-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.tjloughry.com/",
+  "homepage": "https://theteejers.github.io/",
   "dependencies": {
     "firebase": "^5.4.2",
     "gh-pages": "^1.2.0",

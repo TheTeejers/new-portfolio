@@ -79,6 +79,7 @@ a:hover {
   line-height: 30px;
   font-size: 45px;
   overflow-wrap: normal;
+  height: 100%
 }
 
 p, .workDescriptionList {
@@ -232,6 +233,15 @@ select {
 
 
 @media (max-width: 1080px) {
+  .homeText {
+    margin-top: 55%;
+
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
   .letterBox02 {
     width: 10px;
     z-index: -1;
@@ -245,7 +255,7 @@ select {
     background: none;
     color: white;
     border: none;
-    font-size: 60px;
+    font-size: 50px;
     cursor: pointer;
     outline: none;
     margin-left: 450px;
@@ -276,7 +286,7 @@ select {
     background: none;
     position: absolute;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 95px;
 
   }
 
@@ -370,6 +380,7 @@ select {
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
     animation: titleAnimation 36s linear infinite 0s;
+    z-index: -10;
 }
 .cb-slideshow li div h3 {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;

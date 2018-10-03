@@ -4,15 +4,23 @@ import Slide from 'react-reveal/Slide';
 import firebase from './firebase.js'
 
 
+var day = new Date().getDate();
+var month = new Date().getMonth() + 1;
+var year = new Date().getFullYear();
+var hours = new Date().getHours();
+var minutes = new Date().getMinutes();
+
 class Contact extends Component {
   constructor() {
   super();
-  this.state = {
+    this.state = {
     name: '',
     company: '',
     email: '',
     phoneNumber: '',
-    message: ''
+    message: '',
+    messageDate: '',
+    messageTime: ''
   }
   this.handleChange = this.handleChange.bind(this);
   this.handleSubmit = this.handleSubmit.bind(this);
@@ -32,7 +40,9 @@ handleSubmit(e) {
     email: this.state.email,
     company: this.state.company,
     phoneNumber: this.state.phoneNumber,
-    message: this.state.message
+    message: this.state.message,
+    messageDate: month + '-' + day + '-' + year,
+    messageTime: hours + ':' + minutes
   }
   contactRef.push(contact);
   this.setState({
@@ -40,9 +50,15 @@ handleSubmit(e) {
     company: '',
     email: '',
     phoneNumber: '',
-    message: ''
+    message: '',
+    messageDate: '',
+    messageTime: ''
   });
+  alert("Submitted!  Thank you!")
 }
+
+
+
 
   render() {
     return (
