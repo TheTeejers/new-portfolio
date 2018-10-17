@@ -34,7 +34,7 @@ handleChange(e) {
 
 handleSubmit(e) {
   e.preventDefault();
-  const contactRef = firebase.database().ref('conatact');
+  const contactRef = firebase.database().ref('contact');
   const contact = {
     name: this.state.name,
     email: this.state.email,

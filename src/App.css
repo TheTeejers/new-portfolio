@@ -63,6 +63,7 @@ a:hover {
 }
 
 .contactInfo {
+  height: 50vmax;
   line-height: 30px;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
