@@ -87,7 +87,7 @@ class Projects extends Component {
         <Carousel maxTurns={0}>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'><h1 className="FSWD">CHAT APP</h1></a>
+              <a  href='https://loughry-chat-app.herokuapp.com/' target='blank'><h1 className="FSWD">CHAT APP</h1></a>
               <div className="projectImage">
                 <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'><img className='hackathonImage' src={Chat_App} alt='chat app'/></a>
               </div>
