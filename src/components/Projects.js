@@ -87,19 +87,19 @@ class Projects extends Component {
         <Carousel maxTurns={0}>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a href='https://loughry-chat-app.herokuapp.com/' target='blank'><h1 className="FSWD">CHAT APP</h1></a>
+              <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'><h1 className="FSWD">CHAT APP</h1></a>
               <div className="projectImage">
-                <a href='https://loughry-chat-app.herokuapp.com/' target='blank'><img className='hackathonImage' src={Chat_App} alt='chat app'/></a>
+                <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'><img className='hackathonImage' src={Chat_App} alt='chat app'/></a>
               </div>
               <p className="projectParagraph">
-                I did this project in order to learn a little bit more about socket.io.  This was done using a code-along with Leon Watson. The tutorial that he posted on his <a target='blank' href='https://www.youtube.com/channel/UCYjktLnPZi4LHSz1QXwc4dA'>YouTube Channel</a> covered much of the functionality of socket.io.
+                I did this project in order to learn a little bit more about socket.io.  This was done using a code-along with Leon Watson. The tutorial that he posted on his <a className='projectTag' target='blank' href='https://www.youtube.com/channel/UCYjktLnPZi4LHSz1QXwc4dA'>YouTube Channel</a> covered much of the functionality of socket.io.
               </p>
               <p className="projectParagraph">
                 In this application, you can log in as any name you like, and if someone else tries to log in using that name while you are logged in, a message appears letting them know that the name has been taken.  When you initially log in, you are in a "Community" chat room.  If you want to have a private chat with someone else that is looged in, you can search for their name or just select "Users" and select them from there.  Once you do that, you will have a new chat window under "Chats."  While in that chat, more users can be added.  Once a user logs out, their name is removed from the private chat title. In the chat window, you are alerted if another user is typing.  When they send a message, it is time stamped.
               </p>
 
               <p className="projectParagraph">
-                The chat application is live on Heroku <a href='https://loughry-chat-app.herokuapp.com/' target='blank'>here</a>.  The source code can be reviewed on my GitHub page <a href='https://github.com/TheTeejers/Chat-App' target='blank'>here</a>.
+                The chat application is live on Heroku <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'>here</a>.  The source code can be reviewed on my GitHub page <a className='projectTag' href='https://github.com/TheTeejers/Chat-App' target='blank'>here</a>.
               </p>
 
             </div>
@@ -120,20 +120,20 @@ class Projects extends Component {
                 On both the Comments and Catalog page, I used Firebase to set up the database in JSON format.
               </p>
               <p className="projectParagraph">
-                On the Images page, I used the <a href='unsplash.com' target='blank'>UnSplash</a> API to pull images.  You can search without filling out the input fields and get ten random images.  You can also search on specific tags to get images that best fit the project you are building for the hackathon.  You can download images individually, or you can place the images in the 'cart' and download them as a .zip file.  I used NGN, which is an open source framework that.  I also implemented the JSZip library to zip the images and have them download.
+                On the Images page, I used the <a className='projectTag' href='unsplash.com' target='blank'>UnSplash</a> API to pull images.  You can search without filling out the input fields and get ten random images.  You can also search on specific tags to get images that best fit the project you are building for the hackathon.  You can download images individually, or you can place the images in the 'cart' and download them as a .zip file.  I used NGN, which is an open source framework that.  I also implemented the JSZip library to zip the images and have them download.
               </p>
               <p className="projectParagraph">
                 This was a fun project for me to work on.  My pride and joy of this adventure was the Images page.  I set up the page and the ability to download a .zip file of the selected images.
               </p>
               <p className="projectParagraph">
                 Take a tour of the site <a className='projectTag' href="https://theteejers.github.io/static_site/" target='blank'>here!</a>
-                The source code can be viewed <a href='https://github.com/TheTeejers/static_site' target='blank'>here</a>
+                The source code can be viewed <a className='projectTag' href='https://github.com/TheTeejers/static_site' target='blank'>here</a>
               </p>
             </div>
           </LightSpeed>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'><h1 className="FSWD">THIRD GRADER PROJECT</h1></a>
+              <a className='projectTag' href='http://www.scienceprojectbywill.science/' target='blank'><h1 className="FSWD">THIRD GRADER PROJECT</h1></a>
               <div className="projectImage">
                 <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'><img className='hackathonImage' src={scienceproject} alt='science project'/></a>
               </div>
@@ -147,7 +147,7 @@ class Projects extends Component {
                 This was successful and we received a lot more responses than we would have in just an email campaign.
               </p>
               <p className="projectParagraph">
-                In this project, I had a form fill set up that posted to and pulled from a Firebase database. You can see it <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'>here</a> and view the source code <a href='https://github.com/TheTeejers/scienceprojectbywill' target='blank'>here</a>
+                In this project, I had a form fill set up that posted to and pulled from a Firebase database. You can see it <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'>here</a> and view the source code <a className='projectTag' href='https://github.com/TheTeejers/scienceprojectbywill' target='blank'>here</a>
               </p>
 
             </div>
@@ -168,7 +168,7 @@ class Projects extends Component {
                 That night, UFHome was born.
               </p>
               <p className="projectParagraph">
-                Take a tour of the site <a className='projectTag' href="https://ufhome.herokuapp.com/" target='blank'>here!</a> See if you can find the Easter Eggs! The source code is <a href='https://github.com/TheTeejers/UFHome' target='blank'>here</a>
+                Take a tour of the site <a className='projectTag' href="https://ufhome.herokuapp.com/" target='blank'>here!</a> See if you can find the Easter Eggs! The source code is <a className='projectTag' href='https://github.com/TheTeejers/UFHome' target='blank'>here</a>
               </p>
             </div>
           </LightSpeed>
@@ -246,7 +246,7 @@ class Projects extends Component {
                 I really enjoyed figuring this project out and I even added a few little fun surprises!
               </p>
               <p className="projectParagraph">
-                Take a tour of the site <a className='projectTag' href="https://theteejers.github.io/tic-tac-toe/" target='blank'>here!</a> See if you can find the Easter Eggs! Source code is located <a href='https://github.com/TheTeejers/tic-tac-toe' target='blank'>here</a>
+                Take a tour of the site <a className='projectTag' href="https://theteejers.github.io/tic-tac-toe/" target='blank'>here!</a> See if you can find the Easter Eggs! Source code is located <a className='projectTag' href='https://github.com/TheTeejers/tic-tac-toe' target='blank'>here</a>
               </p>
             </div>
           </LightSpeed>
