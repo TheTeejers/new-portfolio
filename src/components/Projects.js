@@ -87,7 +87,7 @@ class Projects extends Component {
         <Carousel maxTurns={0}>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a  href='https://loughry-chat-app.herokuapp.com/' target='blank'><h1 className="FSWD">CHAT APP</h1></a>
+              <h1 className="FSWD"><a  href='https://loughry-chat-app.herokuapp.com/' target='blank'>CHAT APP</a></h1>
               <div className="projectImage">
                 <a className='projectTag' href='https://loughry-chat-app.herokuapp.com/' target='blank'><img className='hackathonImage' src={Chat_App} alt='chat app'/></a>
               </div>
@@ -106,7 +106,7 @@ class Projects extends Component {
           </LightSpeed>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a className='projectTag' href="https://theteejers.github.io/static_site/" target='blank'><h1 className="FSWD">HACKATHON RESOURCES</h1></a>
+              <h1 className="FSWD"><a className='projectTag' href="https://theteejers.github.io/static_site/" target='blank'>HACKATHON RESOURCES</a></h1>
               <div className="projectImage">
                 <a className='projectTag' href="https://theteejers.github.io/static_site/" target='blank'><img className='hackathonImage' src={hackathon_resources_screenshot} alt='hackathon resources'/></a>
               </div>
@@ -133,7 +133,7 @@ class Projects extends Component {
           </LightSpeed>
           <LightSpeed className='slideProject' right>
             <div className='projectSlide'>
-              <a className='projectTag' href='http://www.scienceprojectbywill.science/' target='blank'><h1 className="FSWD">THIRD GRADER PROJECT</h1></a>
+              <h1 className="FSWD"><a className='projectTag' href='http://www.scienceprojectbywill.science/' target='blank'>THIRD GRADER PROJECT</a></h1>
               <div className="projectImage">
                 <a href='http://www.scienceprojectbywill.science/' className='projectTag' target='blank'><img className='hackathonImage' src={scienceproject} alt='science project'/></a>
               </div>
